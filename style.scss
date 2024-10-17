@@ -110,3 +110,20 @@ main{
         flex-wrap: wrap;
     }
 }
+
+footer{
+    max-width: 1920px;
+    background-color: #FF69B4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 11px 45px 14px 55px;
+    font-size: 20px;
+    line-height: 27.24px;
+    text-align: center;
+    flex-wrap: wrap;
+    @media(max-width: 950px){
+        flex-direction: column;
+        gap: 30px;
+    }
+}

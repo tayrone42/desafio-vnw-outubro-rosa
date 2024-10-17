@@ -114,4 +114,23 @@ main .gallery {
   align-items: center;
   padding: 88px 0;
   flex-wrap: wrap;
+}
+
+footer {
+  max-width: 1920px;
+  background-color: #FF69B4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 11px 45px 14px 55px;
+  font-size: 20px;
+  line-height: 27.24px;
+  text-align: center;
+  flex-wrap: wrap;
+}
+@media (max-width: 950px) {
+  footer {
+    flex-direction: column;
+    gap: 30px;
+  }
 }/*# sourceMappingURL=style.css.map */
